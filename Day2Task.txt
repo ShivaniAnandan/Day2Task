@@ -1,0 +1,53 @@
+1)Difference between window object and document object
+
+1)Definition:	
+window Object - Represents the global browser window object.	
+Document Object - Represents the HTML document loaded in the window.
+
+2)Scope:	
+window Object - Global scope; accessible throughout the entire page.	
+Document Object - Specific to the currently loaded document; child of window.
+
+3)Properties:	
+window Object - Contains properties related to the browser window.	
+Document Object - Contains properties related to the loaded HTML document.
+
+4)Example Properties:	
+window Object - window.innerWidth,76window.location, window.console.	
+Document Object - document.title, document.body, document.getElementById().
+
+5)Methods:	
+window Object - Contains methods related to browser actions and events.	
+Document Object - Contains methods for interacting with document elements.
+
+6)Example Methods:	
+window Object - window.alert(), window.open(), window.setTimeout().	
+Document Object - document.getElementById(), document.createElement(), document.querySelector().
+
+7)Event Handling:	
+window Object - Handles events occurring at the window level.	
+Document Object - Handles events occurring within the document.
+
+8)Example Event:	
+window Object - window.onload, window.onresize, window.onclick.	
+Document Object - document.onclick, document.onkeydown, document.onsubmit.
+
+9)Accessibility:	
+window Object - Provides access to browser-related information and actions.	
+Document Object - Provides access to document content and structure.
+
+10)Parent Object:	
+window Object - N/A (top-level object).	
+Document Object - window object (parent of document).
+
+11)Manipulation:
+window Object - Controls browser-level actions like resizing and navigation.	
+Document Object - Manipulates HTML content, structure, and styles.
+
+12)Child Objects:	
+window Object - Contains objects like window.navigator, window.history.	
+Document Object - Contains objects like document.body, document.forms.
+
+
+
+
